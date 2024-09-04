@@ -8,9 +8,7 @@ function Book(name, date, genre, author) {
 
 // exam 2
 function Printer(Book) {
-    for (i in Object.values(Book)) {
-        console.log(i)
-    }
+    console.log(Book)
 }
 
 // exam 3
@@ -55,3 +53,6 @@ function AddToLibrary(Book, Library) {
 function AddAndPrint(Books){
     const bookA = new Book('shai')
 }
+
+let book1 = new Book("To Kill a Mockingbird", "1960", "Fiction", "Harper Lee");
+console.log(book1)
