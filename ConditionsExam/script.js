@@ -1,13 +1,13 @@
 // exam 1
-let inputNum = prompt('Please Enter A number');
+let inputNum = prompt('Please enter a number');
 
 if (inputNum > 10){
-    window.alert('The Number Is Greater Then 10')
+    window.alert('The number is greater then 10')
 }
 
 // exam 2
-let inputNumFirst = prompt('Please Enter A number');
-let inputNumSecond = prompt('Please Enter A number');
+let inputNumFirst = prompt('Please enter a number');
+let inputNumSecond = prompt('Please enter a number');
 if (inputNumFirst == inputNumSecond){
     window.alert('The numbers are equal')
 }
@@ -19,10 +19,10 @@ else {
 }
 
 // exam 3
-let inputStr = prompt('Please Enter A string');
+let inputStr = prompt('Please enter a string');
 const lengthStr = inputStr.length;
 if (lengthStr > 20){
-    window.alert('Big thn 20')
+    window.alert('Big then 20')
 }
 else if (lengthStr > 10){
     window.alert('Big then 10')
