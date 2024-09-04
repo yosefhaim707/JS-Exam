@@ -41,7 +41,7 @@ else{
     window.alert(lengthStrSecond)
 }
 
-// exam 4
+// exam 5
 let inputNumDay = prompt('Please Enter A number between 1 and 7');
 let message = ''
 switch(inputNumDay){
