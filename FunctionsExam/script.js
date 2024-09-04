@@ -40,6 +40,9 @@ function size(height, width) {
 }
 
 // exam 8
+function circleSize() {
+    
+}
 // exam 9
 // exam 10
 function whosLonger(str1, str2) {
