@@ -2,43 +2,43 @@
 let inputNum = prompt('Please enter a number');
 
 if (inputNum > 10){
-    window.alert('The number is greater then 10')
+    window.alert('The number is greater then 10');
 }
 
 // exam 2
 let inputNumFirst = prompt('Please enter a number');
 let inputNumSecond = prompt('Please enter a number');
 if (inputNumFirst == inputNumSecond){
-    window.alert('The numbers are equal')
+    window.alert('The numbers are equal');
 }
 else if (inputNumFirst > inputNumSecond){
-    window.alert(inputNumFirst)
+    window.alert(inputNumFirst);
 }
 else {
-    window.alert(inputNumSecond)
+    window.alert(inputNumSecond);
 }
 
 // exam 3
 let inputStr = prompt('Please enter a string');
 const lengthStr = inputStr.length;
 if (lengthStr > 20){
-    window.alert('Big then 20')
+    window.alert('Big then 20');
 }
 else if (lengthStr > 10){
-    window.alert('Big then 10')
+    window.alert('Big then 10');
 }
 else{
-    window.alert('Less then 10')
+    window.alert('Less then 10');
 }
 
 // exam 4
 let inputStrSecond = prompt('Please Enter A string');
 const lengthStrSecond = inputStr.length;
 if (lengthStr > 20){
-    window.alert(inputStrSecond.slice(0, 21))
+    window.alert(inputStrSecond.slice(0, 21));
 }
 else{
-    window.alert(lengthStrSecond)
+    window.alert(lengthStrSecond);
 }
 
 // exam 5
@@ -46,27 +46,27 @@ let inputNumDay = prompt('Please Enter A number between 1 and 7');
 let message = ''
 switch(inputNumDay){
     case 1:
-        message = 'Sunday'
-        break
+        message = 'Sunday';
+        break;
     case 2:
-        message = 'Monday'
-        break
+        message = 'Monday';
+        break;
     case 3:
-        message = 'Tuesday'
-        break
+        message = 'Tuesday';
+        break;
     case 4:
-        message = 'Wednesday'
-        break
+        message = 'Wednesday';
+        break;
     case 5:
-        message = 'Thursday'
-        break
+        message = 'Thursday';
+        break;
     case 6:
-        message = 'Friday'
-        break
+        message = 'Friday';
+        break;
     case 7:
-        message = 'Saturday'
-        break
+        message = 'Saturday';
+        break;
     default:
-        message = 'Inavalid number'
+        message = 'Inavalid number';
     }
 window.alert(message);
