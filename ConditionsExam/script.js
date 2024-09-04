@@ -35,7 +35,7 @@ else{
 let inputStrSecond = prompt('Please Enter A string');
 const lengthStrSecond = inputStr.length;
 if (lengthStr > 20){
-    window.alert(inputStrSecond.slice(21))
+    window.alert(inputStrSecond.slice(0, 21))
 }
 else{
     window.alert(lengthStrSecond)
