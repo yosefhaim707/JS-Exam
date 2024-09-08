@@ -2,7 +2,7 @@
 let array = [9, 4, 54, 3, 23, 33, 4]
 
 // exam 1.a
-function sumArr(arr){
+ function sumArr(arr){
     let sum = 0;
     for (let index = 0; index < arr.length; index++) {
         sum += arr[index]    
