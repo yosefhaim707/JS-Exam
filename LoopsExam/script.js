@@ -82,6 +82,15 @@ function evenArr(arr){
     return newArr;
 }
 
+// exam 1 tests
+console.log(sumArr(array));
+console.log(multiArr(array));
+console.log(avrArr(array));
+console.log(swapArr(array));
+console.log(copyArr(array));
+console.log(reverseArr(array));
+console.log(highArr(array));
+console.log(evenArr(array));
 
 // exam 2
 strArr = ['hi', 'only', 'good', 'full', 'stack']
