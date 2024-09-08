@@ -48,17 +48,14 @@ function reverseArr(arr){
     let leftIndex = arr.length - 1;
     let rightElement = 0;
     let leftElement = 0;
-    let condition = rightIndex < leftIndex;
-    // while (condition) {
-    //     console.log(condition)
-    //     rightElement = arr[rightIndex];
-    //     leftElement = arr[leftIndex];
-    //     arr[rightIndex] = leftElement;
-    //     arr[leftIndex] = rightElement;
-    //     rightIndex += 1;
-    //     leftIndex -=1;
-    //     console.log(condition)
-    // };
+    while (rightIndex < leftIndex) {
+        rightElement = arr[rightIndex];
+        leftElement = arr[leftIndex];
+        arr[rightIndex] = leftElement;
+        arr[leftIndex] = rightElement;
+        rightIndex ++;
+        leftIndex --;
+    };
     return arr;
 }
 
@@ -85,14 +82,14 @@ function evenArr(arr){
 }
 
 // exam 1 tests
-// console.log(sumArr(array));
-// console.log(multiArr(array));
-// console.log(avrArr(array));
-// console.log(swapArr(array));
-// console.log(copyArr(array));
+console.log(sumArr(array));
+console.log(multiArr(array));
+console.log(avrArr(array));
+console.log(swapArr(array));
+console.log(copyArr(array));
 console.log(reverseArr(array));
-// console.log(highArr(array));
-// console.log(evenArr(array));
+console.log(highArr(array));
+console.log(evenArr(array));
 
 // exam 2
 strArr = ['hi', 'only', 'good', 'full', 'stack']
