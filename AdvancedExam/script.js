@@ -37,6 +37,7 @@ function inputNumber(){
 
 };
 
+// copied from the previous exam
 function highArr(arr){
     let highest = 0;
     for (let index = 0; index < arr.length; index++) {
@@ -70,3 +71,25 @@ function fourthPrinter(arr){
 }
 
 inputNumber();
+
+// exam 3
+function pyramid(num){
+    let layerStr = ''
+    for (let i = 0; i < num; i++){
+        layerStr += '*';
+        console.log(layerStr);
+    };
+}
+
+pyramid(5);
+
+// exam 4
+function upSidePyramid(num){
+    let layerStr = '*'.repeat(num);
+    for (let i = 0; i < num; i++){
+        console.log(layerStr);
+        layerStr = layerStr.slice(0, -1);
+    }
+}
+
+upSidePyramid(5);
