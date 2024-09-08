@@ -93,3 +93,14 @@ function upSidePyramid(num){
 }
 
 upSidePyramid(5);
+
+// exam 5
+function multiBoard(num){
+    for (let i = 1; i < num + 1; i++){
+        for (let j = 1; j < num + 1; j++){
+            console.log(`${i * j} \t`);
+        }
+    }
+}
+
+multiBoard(5);
