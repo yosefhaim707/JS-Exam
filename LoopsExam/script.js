@@ -53,8 +53,8 @@ function reverseArr(arr){
         leftElement = arr[leftIndex];
         arr[rightIndex] = leftElement;
         arr[leftIndex] = rightElement;
-        rightIndex ++;
-        leftIndex --;
+        rightIndex += 1;
+        leftIndex -= 1;
     };
     return arr;
 }
