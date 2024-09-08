@@ -1,0 +1,14 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation nav a {
+    text-decoration: none;
+    background-color: black;
+    color: azure;
+}
